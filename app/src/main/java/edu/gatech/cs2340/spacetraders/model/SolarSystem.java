@@ -17,6 +17,15 @@ import static java.lang.Math.floor;
 public class SolarSystem {
 
     private String name;
+
+    public double getxLoc() {
+        return xLoc;
+    }
+
+    public double getyLoc() {
+        return yLoc;
+    }
+
     private double xLoc;
     private double yLoc;
     private Set<Planet> planets;
@@ -54,6 +63,10 @@ public class SolarSystem {
      */
     public Set<Planet> getPlanets() {
         return planets;
+    }
+
+    public String getName() {
+        return name;
     }
 
     /**
