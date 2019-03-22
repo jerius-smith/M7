@@ -115,4 +115,8 @@ public class DataStore {
     public static Player getCurrentPlayer(Context context) throws FileNotFoundException {
         return jsonToPlayer(context, getCurrentPlayerTxt(context) + "_player.json");
     }
+
+    public static Universe getCurrentUniverse(Context context) throws FileNotFoundException {
+        return jsonToUniverse(context, getCurrentPlayerTxt(context) + "_universe.json");
+    }
 }

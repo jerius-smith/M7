@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.UniverseActivity"
+    android:background="@drawable/star032">
+
+    <TextView
+        android:id="@+id/credits_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/screen_percentage_10"
+        android:layout_marginRight="@dimen/screen_percentage_10"
+        android:fontFamily="@font/inconsolata"
+        android:text="Credits: 1000"
+        android:textColor="@color/tan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/universe_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/screen_percentage_10"
+        android:layout_marginTop="@dimen/screen_percentage_10"
+        android:fontFamily="@font/inconsolata"
+        android:text="Universe"
+        android:textColor="@color/tan"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:id="@+id/solar1_button"
+        android:layout_width="110dp"
+        android:layout_height="101dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:background="@null"
+        app:srcCompat="@drawable/solarsystem1" />
+
+    <TextView
+        android:id="@+id/solar1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/solar1_button"
+        android:layout_alignStart="@+id/solar1_button"
+        android:layout_marginLeft="@dimen/screen_percentage_05"
+        android:layout_marginTop="-15dp"
+        android:fontFamily="@font/inconsolata"
+        android:text="Sombrero"
+        android:textColor="@color/tan"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/solar2_button"
+        android:layout_width="110dp"
+        android:layout_height="101dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="300dp"
+        android:background="@null"
+        app:srcCompat="@drawable/solarsystem2" />
+
+    <TextView
+        android:id="@+id/solar2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/solar2_button"
+        android:layout_alignStart="@+id/solar2_button"
+        android:layout_marginLeft="@dimen/screen_percentage_05"
+        android:layout_marginTop="-15dp"
+        android:fontFamily="@font/inconsolata"
+        android:text="Cygnus"
+        android:textColor="@color/tan"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/solar3_button"
+        android:layout_width="110dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="450dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/solarsystem3" />
+
+    <TextView
+        android:id="@+id/solar3_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/solar3_button"
+        android:layout_alignStart="@+id/solar3_button"
+        android:layout_marginLeft="@dimen/screen_percentage_05"
+        android:layout_marginTop="-15dp"
+        android:fontFamily="@font/inconsolata"
+        android:text="Andromeda"
+        android:textColor="@color/tan"
+        android:textSize="20sp" />
+
+</RelativeLayout>
